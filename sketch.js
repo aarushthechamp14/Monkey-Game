@@ -50,11 +50,11 @@ function draw() {
   
   
   
-  if(keyDown("shift") && monkey.y > 300){
+  if(keyDown("shift")){
     monkey.velocityY = -8;
   }
   
-  monkey.velocityY = monkey.velocityY = 1;
+  monkey.velocityY = monkey.velocityY + 1;
   
   if(ground.width/2){
      ground.x = 200;
