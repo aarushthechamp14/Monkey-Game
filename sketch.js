@@ -50,7 +50,7 @@ function draw() {
   
   
   
-  if(keyDown("shift")){
+  if(keyDown("space")){
     monkey.velocityY = -8;
   }
   
